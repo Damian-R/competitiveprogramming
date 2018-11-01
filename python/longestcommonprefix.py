@@ -13,7 +13,3 @@ class Solution:
                     return prefix
             prefix += strs[0][i]
         return prefix
-
-
-print(Solution().longestCommonPrefix(["flower","flow","flight"]))
-# print(Solution().longestCommonPrefix([""]))

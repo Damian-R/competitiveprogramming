@@ -19,5 +19,3 @@ class Solution:
                 startind -= 1
                 endind += 1
         return string
-
-print("res: " + Solution().longestPalindrome('a'))

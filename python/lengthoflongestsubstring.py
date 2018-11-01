@@ -17,7 +17,3 @@ class Solution:
                 else:
                     break
         return longest_streak
-            
-
-sol = Solution()
-print(sol.lengthOfLongestSubstring("abcabcbb"))
