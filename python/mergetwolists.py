@@ -42,19 +42,3 @@ class Solution:
                 travel.next = ListNode(0)
                 travel = travel.next
         return head
-
-l1 = ListNode(1)
-l2 = ListNode(2)
-l3 = ListNode(4)
-
-l1.next = l2
-l2.next = l3
-
-l4 = ListNode(1)
-l5 = ListNode(3)
-l6 = ListNode(4)
-
-l4.next = l5
-l5.next = l6
-
-Solution().mergeTwoLists(l1, l4).print()
