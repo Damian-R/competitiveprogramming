@@ -1,4 +1,4 @@
-def URLify(url, length):
+def URLify(url):
     add_to_index = 0
     trailing = True
     for i in range(len(url) - 1, 0, -1):
@@ -18,10 +18,10 @@ def URLify(url, length):
                 add_to_index -= 2
             else:
                 if add_to_index == 0:
-                    return url
+                    return ''.join(url)
                 url[i + add_to_index] = url[i]
                 url[i] = ' '
 
-url = 'Mr John Smith    '
-length = 13
-print URLify(list(url), length)
+# url = 'Mr John Smith    '
+url = 'hello my name is damian        '
+print URLify(list(url))
