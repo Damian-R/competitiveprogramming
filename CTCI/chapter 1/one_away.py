@@ -16,6 +16,4 @@ def one_away(one, two):
                 diff = 1
     return True
 
-
-
 print one_away('pale', 'pales')
