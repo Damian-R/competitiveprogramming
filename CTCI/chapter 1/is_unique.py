@@ -1,4 +1,4 @@
-def isUnique(string):
+def is_unique(string):
     seen = {}
     for i, c in enumerate(string):
         if c not in seen:
@@ -7,5 +7,4 @@ def isUnique(string):
             return False
     return True
 
-print(isUnique('abc'))
-        
+print(is_unique('abc'))

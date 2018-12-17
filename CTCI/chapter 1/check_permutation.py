@@ -1,4 +1,4 @@
-def checkPermutation(a, b):
+def check_permutation(a, b):
     dict_a = {}
     dict_b = {}
 
@@ -14,5 +14,4 @@ def checkPermutation(a, b):
             dict_b[c] += 1
     return dict_a == dict_b
 
-print(checkPermutation('abc', 'bca'))
-     
+print(check_permutation('abc', 'bca'))
