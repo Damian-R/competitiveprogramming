@@ -1,7 +1,7 @@
 import helpers.SinglyLinkedList;
 import helpers.Node;
 
-class partition {
+class Partition {
   public static void main(String[] args) {
     SinglyLinkedList list = new SinglyLinkedList(new Node(3));
     list.addNode(new Node(5));

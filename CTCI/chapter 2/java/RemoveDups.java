@@ -2,7 +2,7 @@ import helpers.SinglyLinkedList;
 import helpers.Node;
 import java.util.HashMap;
 
-class removeDups {
+class RemoveDups {
   public static void main(String[] args) {
     SinglyLinkedList list = new SinglyLinkedList(new Node(5));
     list.addNode(new Node(3));

@@ -1,7 +1,7 @@
 import helpers.SinglyLinkedList;
 import helpers.Node;
 
-class returnKthToLast {
+class ReturnKthToLast {
   public static void main(String[] args) {
     SinglyLinkedList list = new SinglyLinkedList(new Node(5)); // fifth to last
     list.addNode(new Node(4)); // fourth to last
