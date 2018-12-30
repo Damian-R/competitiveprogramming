@@ -8,7 +8,16 @@ public class SinglyLinkedList {
     this.head = head;
   }
 
+  public SinglyLinkedList() {
+    this.head = null;
+  }
+
   public void addNode(Node add) {
+    if (this.head == null) {
+      this.head = add;
+      return;
+    }
+
     Node trav = this.head;
 
     while(trav.next != null) {
